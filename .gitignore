@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+dist/
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# Home Assistant runtime files
+config/*
+!config/configuration.yaml

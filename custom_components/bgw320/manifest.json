@@ -1,0 +1,15 @@
+{
+  "domain": "bgw320",
+  "name": "BGW320",
+  "version": "0.1.0",
+  "codeowners": [
+    "@dennisdms"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/dennisdms/homeassistant-bgw320",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "quality_scale": "bronze",
+  "requirements": []
+}

@@ -1,0 +1,11 @@
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    environment:
+      TZ: America/Chicago
+    volumes:
+      - ./custom_components:/config/custom_components
+      - ./config/configuration.yaml:/config/configuration.yaml
+      - ./config/.storage:/config/.storage
+    restart: unless-stopped
+    network_mode: host

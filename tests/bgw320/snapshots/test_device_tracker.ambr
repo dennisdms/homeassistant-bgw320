@@ -1,0 +1,79 @@
+# serializer version: 1
+# name: test_device_tracker_snapshot
+  list([
+    EntityRegistryEntrySnapshot({
+      'aliases': list([
+        None,
+      ]),
+      'area_id': None,
+      'capabilities': dict({
+        'tracking_type': <TrackingType.CONNECTION: 'connection'>,
+      }),
+      'config_entry_id': <ANY>,
+      'config_subentry_id': <ANY>,
+      'device_class': None,
+      'device_id': <ANY>,
+      'disabled_by': <RegistryEntryDisabler.INTEGRATION: 'integration'>,
+      'domain': 'device_tracker',
+      'entity_category': <EntityCategory.DIAGNOSTIC: 'diagnostic'>,
+      'entity_id': 'device_tracker.andy_s_s24',
+      'has_entity_name': False,
+      'hidden_by': None,
+      'icon': None,
+      'id': <ANY>,
+      'labels': set({
+      }),
+      'name': None,
+      'object_id_base': 'Andy-s-S24',
+      'options': dict({
+      }),
+      'original_device_class': None,
+      'original_icon': None,
+      'original_name': 'Andy-s-S24',
+      'platform': 'bgw320',
+      'previous_unique_id': None,
+      'suggested_object_id': None,
+      'supported_features': 0,
+      'translation_key': None,
+      'unique_id': '0a:0f:05:fd:1e:f4',
+      'unit_of_measurement': None,
+    }),
+    EntityRegistryEntrySnapshot({
+      'aliases': list([
+        None,
+      ]),
+      'area_id': None,
+      'capabilities': dict({
+        'tracking_type': <TrackingType.CONNECTION: 'connection'>,
+      }),
+      'config_entry_id': <ANY>,
+      'config_subentry_id': <ANY>,
+      'device_class': None,
+      'device_id': <ANY>,
+      'disabled_by': <RegistryEntryDisabler.INTEGRATION: 'integration'>,
+      'domain': 'device_tracker',
+      'entity_category': <EntityCategory.DIAGNOSTIC: 'diagnostic'>,
+      'entity_id': 'device_tracker.my_phone',
+      'has_entity_name': False,
+      'hidden_by': None,
+      'icon': None,
+      'id': <ANY>,
+      'labels': set({
+      }),
+      'name': None,
+      'object_id_base': 'my-phone',
+      'options': dict({
+      }),
+      'original_device_class': None,
+      'original_icon': None,
+      'original_name': 'my-phone',
+      'platform': 'bgw320',
+      'previous_unique_id': None,
+      'suggested_object_id': None,
+      'supported_features': 0,
+      'translation_key': None,
+      'unique_id': '20:be:b8:ec:06:a5',
+      'unit_of_measurement': None,
+    }),
+  ])
+# ---
